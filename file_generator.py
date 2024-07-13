@@ -17,6 +17,6 @@ def generate_test_files(num_files, num_words_per_file, keywords):
         create_test_file(f'test_files/file{i + 1}.txt', num_words_per_file, keywords)
 
 if __name__ == "__main__":
-    keywords = ['keyword1', 'keyword2', 'keyword3']  # Add your keywords here
+    keywords = ['keyword1', 'keyword2', 'keyword3']
     generate_test_files(10, 1000, keywords)  # Generates 10 files, each with 1000 words
     print("Test files generated in the 'test_files' directory.")
